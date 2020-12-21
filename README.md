@@ -21,10 +21,10 @@
 
 ## 問題
 
-* Arduino Unoが4台程度しかない
-　解決案:SAが個人で持っているのを貸してもらうor経費で購入
-* WindowsのArduinoIDEしかやり方がわからない
-　解決案:誰かMacでArduinoやってる人いませんか
+* ~~Arduino Unoが4台程度しかない
+　解決案:SAが個人で持っているのを貸してもらうor経費で購入~~
+* ~~WindowsのArduinoIDEしかやり方がわからない
+　解決案:誰かMacでArduinoやってる人いませんか~~
 * 宣伝をどうするか
 　解決案:みんなで考えよう
 
