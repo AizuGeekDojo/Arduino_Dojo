@@ -12,7 +12,7 @@ void loop() {
   if(millis()-tR>=INTERVAL_R){
     tR=millis();
     outR=!outR;
-    analogWrite(RED,outR*51);
+    digitalWrite(RED,outR);
   }
   if(millis()-tB>=INTERVAL_B){
     tB=millis();
