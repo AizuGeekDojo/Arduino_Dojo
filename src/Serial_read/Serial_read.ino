@@ -1,4 +1,5 @@
-int LED = 5;
+#define LED 5
+
 void setup() {
   Serial.begin(9600);
   pinMode(LED, OUTPUT);
@@ -6,7 +7,7 @@ void setup() {
 
 void loop() {
   if (Serial.available() > 0) {
-    char c = Serial.read();
+    int c = Serial.read();
     if (c == 'H') {
       digitalWrite(LED, HIGH);
     } else if (c == 'L') {
