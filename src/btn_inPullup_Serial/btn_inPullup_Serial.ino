@@ -1,5 +1,6 @@
-int BTN=3;
-int LED=5;
+#define BTN 3
+#define LED 5
+
 void setup() {
   Serial.begin(9600);
   pinMode(LED,OUTPUT);
@@ -9,7 +10,7 @@ void setup() {
 void loop() {
   if(digitalRead(BTN)==LOW){
     Serial.print(BTN);
-    Serial.println(" pin is Pressed!");
+    Serial.println(" pin is pressed!");
     digitalWrite(LED,HIGH);
     delay(1000);
     digitalWrite(LED,LOW);
