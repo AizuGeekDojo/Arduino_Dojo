@@ -1,5 +1,6 @@
-int BTN=3;
-int LED=5;
+#define BTN 3
+#define LED 5
+
 void setup() {
   pinMode(LED,OUTPUT);
   pinMode(BTN,INPUT);
