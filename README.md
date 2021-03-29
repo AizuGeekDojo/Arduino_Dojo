@@ -125,6 +125,10 @@ LEDをjojoに明るくしたり、暗くしたりする
 2. 書き込み
 3. 回路製作
 
+## スライドは以下を参照
+
+https://docs.google.com/presentation/d/1_FQJygPEhaexG8FzAY4WPlc8jmjDIPw5JjiVM9_YnVg/edit?usp=sharing
+
 ## ここに案を書いて行ってください
 
 * テスタの使い方も入れよう!(例)
